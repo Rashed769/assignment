@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arvo', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* This is the header section */
+.header{
+    background: url(./images/banner/banner1.png);
+    text-align: right;
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+.banner-text{
+    width: 415px;
+    height: 426px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+.banner-text h1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 75px;
+}
+.banner-text p {
+    margin-top: 24px;
+}
+.banner-contact{
+    margin-top: 34px;
+    padding: 10px;
+    color: white;
+    background: orangered;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 50px;
+}
+.banner-contact:hover{
+    border: 1px solid rgb(214, 46, 16);
+    border-radius: 5px;
+    font-size: 23px;
+}
+/* This is the failures itemes */
+.my-failure{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.failure-img{
+    background-image: url(./images/person.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 730px;
+    margin-top: 100px;
+}
+.failure-dis{
+    width: 301px;
+    margin-top: 200px;
+}
+.failure-dis h1{
+    font-size: 40px;
+}
+.failure-dis p{
+    margin-top: 20px;
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+li span{
+    margin-right: 5px;
+    color: green;
+}
+/* This is the myplan section */
+.gp-plan{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.cn-text{
+    text-align: center;
+    margin-top: 100px;
+}
+.plangp{
+    margin-top: 50px;
+}
+/* This is the mindset section */
+.positive h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+.mindset{
+    background-image: url(./images/watch.png);
+    opacity: 0.80;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+.gradient{
+    background: linear-gradient(to right, orangered, rgba(255, 68, 0, 0.178));
+    width: 99%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+    text-align: left;
+}
+.gradient h2{
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-weight: 900;
+    color: white;
+}
+.btn{
+    margin-left: 50px;
+    border: none;
+}
+/* This is the footer section */
+.foot{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 50px;
+}
+.feature{
+    width: 300px;
+    margin-left: 100px;
+}
+.feature h1{
+    margin-top: 50px;
+}
+.fea-dis{
+    margin-top: 20px;
+}
+.foot-bottom{
+    margin-bottom: 80px;
+}
+.sub {
+    width: 300px;
+    
+}
+.sub h1{
+    margin-top: 50px;
+}
+.sub input{
+    margin-top: 30px;
+    width: 200px;
+    height: 35px;
+}
+.sub input[placeholder]{
+    padding-left:10px;
+}
+.button{
+    background: white;
+    color: orangered;
+    padding: 10px;
+    margin-top: 20px;
+}
+.button:hover{
+    font-size: 18px;
+}
